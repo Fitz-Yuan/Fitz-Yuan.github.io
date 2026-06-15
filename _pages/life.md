@@ -1,6 +1,6 @@
 ---
 layout: page
-title: life
+title: Life
 permalink: /life/
 nav: true
 nav_order: 4
@@ -13,21 +13,26 @@ Outside of research, I spend as much time as I can on the slopes and with my dog
 
 Meet **Fanfan**, my favorite training partner and the best company on every adventure.
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Fanfan/dog0.jpg" title="Fanfan" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Fanfan/dog1.jpg" title="Fanfan" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="row mt-3">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Fanfan/dog2.jpg" title="Fanfan" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Fanfan/dog3.png" title="Fanfan" class="img-fluid rounded z-depth-1" %}
-    </div>
+<style>
+/* Masonry-style gallery: images keep their own aspect ratio and pack
+   tightly to fill the whitespace, instead of a rigid aligned grid. */
+.fanfan-gallery { columns: 2; column-gap: 12px; }
+.fanfan-gallery img {
+  width: 100%;
+  margin: 0 0 12px;
+  border-radius: 8px;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.18);
+  display: block;
+  break-inside: avoid;
+}
+@media (max-width: 576px) { .fanfan-gallery { columns: 1; } }
+</style>
+
+<div class="fanfan-gallery">
+  <img src="{{ '/assets/img/Fanfan/dog0.jpg' | relative_url }}" alt="Fanfan">
+  <img src="{{ '/assets/img/Fanfan/dog1.jpg' | relative_url }}" alt="Fanfan">
+  <img src="{{ '/assets/img/Fanfan/dog2.jpg' | relative_url }}" alt="Fanfan">
+  <img src="{{ '/assets/img/Fanfan/dog3.png' | relative_url }}" alt="Fanfan">
 </div>
 <div class="caption">
     Fanfan 🐾
