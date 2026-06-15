@@ -9,9 +9,9 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Department of Biomedical Engineering</p>
-    <p>New Jersey Institute of Technology, Newark, NJ</p>
-    <p>yy72@njit.edu</p>
+    <p style="white-space: nowrap;">Biomedical Engineering</p>
+    <p style="white-space: nowrap;">NJIT, Newark, NJ</p>
+    <p style="white-space: nowrap;">yy72@njit.edu</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
