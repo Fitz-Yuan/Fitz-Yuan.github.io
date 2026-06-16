@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Ph.D. Candidate · <strong>BioDynamics Lab</strong>, <strong>NJIT &amp; Rutgers</strong> Joint Biomedical Engineering Program
+subtitle: Ph.D. Candidate · <strong>BioDynamics Lab</strong>
 
 profile:
   align: right
@@ -32,7 +32,7 @@ latest_posts:
 /* Capitalize the section headings (News, Selected Publications) */
 .post > article > h2 { text-transform: capitalize; }
 /* Align the photo's top with the subtitle line; small gap on its left */
-.profile.float-right { margin-top: -2.6rem; margin-left: 1.5rem; transform: translateX(8px); }
+.profile.float-right { margin-left: 1.5rem; transform: translateX(8px); }
 /* Make the photo a bit larger on desktop (default is 30%) */
 @media (min-width: 576px) { .profile.float-right { width: 34%; } }
 </style>
