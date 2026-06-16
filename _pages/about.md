@@ -34,4 +34,4 @@ latest_posts:
 
 Hi, I'm **Yifei Yuan (袁一飞)**. My research sits at the intersection of **reinforcement learning, robotics, and biomechanics**, with a focus on **rehabilitation exoskeletons**. I am especially interested in *learning control policies in simulation* and transferring them to real-world wearable robots that can assist and restore human movement.
 
-I'm always happy to connect with people who share these interests — feel free to reach out at [yy72@njit.edu](mailto:yy72@njit.edu).
+I'm always happy to connect with people who share these interests — feel free to reach out at [yy72@njit.edu](mailto:yy72@njit.edu) or connect with me on [LinkedIn](https://www.linkedin.com/in/yifei-yuan-b4a161252).
