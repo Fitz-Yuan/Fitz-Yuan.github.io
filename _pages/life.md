@@ -11,7 +11,7 @@ Outside of research, I spend as much time as I can on the slopes and with my dog
 
 ## Fanfan 🐶
 
-Meet **Fanfan**, my favorite training partner and the best company on every adventure.
+Meet **Fanfan**, my favorite little furry friend and the best company on every adventure.
 
 <style>
 /* Masonry-style gallery: images keep their own aspect ratio and pack
@@ -40,4 +40,4 @@ Meet **Fanfan**, my favorite training partner and the best company on every adve
 
 ## Skiing ⛷️
 
-Winters are for the mountains — there's nothing like a fresh run of powder. A video is coming soon!
+Winters are for the mountains — there's nothing like a fresh run of powder.
