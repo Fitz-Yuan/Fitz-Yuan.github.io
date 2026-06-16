@@ -30,6 +30,8 @@ latest_posts:
 <style>
 /* Make the full name bold, not just the first name */
 .post-title { font-weight: 700; }
+/* Capitalize the section headings (News, Selected Publications) */
+.post > article > h2 { text-transform: capitalize; }
 </style>
 
 Hi, I'm **Yifei Yuan (袁一飞)**. My research sits at the intersection of **reinforcement learning, robotics, and biomechanics**, with a focus on **rehabilitation exoskeletons**. I am especially interested in *learning control policies in simulation* and transferring them to real-world wearable robots that can assist and restore human movement.
