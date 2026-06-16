@@ -37,7 +37,7 @@ latest_posts:
 @media (min-width: 576px) { .profile.float-right { width: 34%; } }
 </style>
 
-Hi, I'm **Yifei Yuan (袁一飞)**, a Ph.D. student in the **Joint Biomedical Engineering PhD Program** at NJIT & Rutgers. My research sits at the intersection of **reinforcement learning, robotics, and biomechanics**, with a focus on **rehabilitation exoskeletons**.
+Hi, I'm **Yifei Yuan (袁一飞)**, a Ph.D. student in the **Joint Biomedical Engineering PhD Program** at NJIT & Rutgers. My research sits at the intersection of **reinforcement learning, robotics, biomechanics, and human motion analysis**, with a focus on **rehabilitation exoskeletons**.
 
 I am especially interested in *learning control policies in simulation* and transferring them to real-world wearable robots that can assist and restore human movement.
 
