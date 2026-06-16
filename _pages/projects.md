@@ -35,12 +35,12 @@ nav_order: 3
 
 <div class="proj-grid">
   <div class="proj-card" data-video="{{ '/assets/videos/iros.mp4' | relative_url }}">
-    <video src="{{ '/assets/videos/iros.mp4' | relative_url }}#t=0.1" muted preload="metadata" playsinline></video>
+    <video src="{{ '/assets/videos/iros.mp4' | relative_url }}#t=2" muted preload="metadata" playsinline></video>
     <div class="play-badge"></div>
     <div class="proj-caption">IROS 2026 · SMAT: Co-Adaptive Exoskeleton Control</div>
   </div>
   <div class="proj-card" data-video="{{ '/assets/videos/biorob.mp4' | relative_url }}">
-    <video src="{{ '/assets/videos/biorob.mp4' | relative_url }}#t=0.1" muted preload="metadata" playsinline></video>
+    <video src="{{ '/assets/videos/biorob.mp4' | relative_url }}#t=3" muted preload="metadata" playsinline></video>
     <div class="play-badge"></div>
     <div class="proj-caption">BioRob 2026 · Ankle Assistance for Gait Symmetry</div>
   </div>
