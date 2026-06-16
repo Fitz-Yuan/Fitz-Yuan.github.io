@@ -38,6 +38,6 @@ Hi, I'm **Yifei Yuan (袁一飞)**, a Ph.D. student in the **Joint Biomedical En
 
 I am especially interested in *learning control policies in simulation* and transferring them to real-world wearable robots that can assist and restore human movement.
 
-I'm always happy to connect with people who share these interests — feel free to reach out at [yy72@njit.edu](mailto:yy72@njit.edu) or connect with me on [LinkedIn](https://www.linkedin.com/in/yifei-yuan-b4a161252).
+I'm always happy to connect with people who share these interests — feel free to reach out at **[yy72@njit.edu](mailto:yy72@njit.edu)** or connect with me on **[LinkedIn](https://www.linkedin.com/in/yifei-yuan-b4a161252)**.
 
 I'm currently **open to internship and research collaboration opportunities** — if you're working on something related, I'd love to hear from you.
