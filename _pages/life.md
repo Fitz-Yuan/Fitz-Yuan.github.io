@@ -4,7 +4,7 @@ title: Life
 permalink: /life/
 nav: true
 nav_order: 4
-description: A few things I love outside the lab: skiing and my dog.
+description: A few things I love outside the lab, skiing and my dog.
 ---
 
 Outside of research, I spend as much time as I can on the slopes and with my dog. Here are a few moments I love.
