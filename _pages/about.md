@@ -31,12 +31,14 @@ latest_posts:
 .post-title { font-weight: 700; }
 /* Capitalize the section headings (News, Selected Publications) */
 .post > article > h2 { text-transform: capitalize; }
+/* Nudge the profile photo right and add a gap between the text and the photo */
+.profile.float-right { margin-left: 1.5rem; transform: translateX(10px); }
 </style>
 
 Hi, I'm **Yifei Yuan (袁一飞)**, a Ph.D. student in the **Joint Biomedical Engineering PhD Program** at NJIT & Rutgers. My research sits at the intersection of **reinforcement learning, robotics, and biomechanics**, with a focus on **rehabilitation exoskeletons**.
 
 I am especially interested in *learning control policies in simulation* and transferring them to real-world wearable robots that can assist and restore human movement.
 
-I'm always happy to connect with people who share these interests — feel free to reach out at **[yy72@njit.edu](mailto:yy72@njit.edu)** or connect with me on <strong><a href="https://www.linkedin.com/in/yifei-yuan-b4a161252" target="_blank" rel="noopener">LinkedIn <i class="fa-brands fa-linkedin"></i></a></strong>.
+I'm always happy to connect with people who share these interests. Feel free to reach out at **[yy72@njit.edu](mailto:yy72@njit.edu)** or connect with me on <strong><a href="https://www.linkedin.com/in/yifei-yuan-b4a161252" target="_blank" rel="noopener">LinkedIn <i class="fa-brands fa-linkedin"></i></a></strong>.
 
-I'm currently **open to internship and research collaboration opportunities** — if you're working on something related, I'd love to hear from you.
+I'm currently **open to internship and research collaboration opportunities**. If you're working on something related, I'd love to hear from you.

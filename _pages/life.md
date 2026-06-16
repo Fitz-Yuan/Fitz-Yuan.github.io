@@ -4,7 +4,7 @@ title: Life
 permalink: /life/
 nav: true
 nav_order: 4
-description: A few things I love outside the lab — skiing and my dog.
+description: A few things I love outside the lab: skiing and my dog.
 ---
 
 Outside of research, I spend as much time as I can on the slopes and with my dog. Here are a few moments I love.
@@ -40,7 +40,7 @@ Meet **Fanfan**, my favorite little furry friend and the best company on every a
 
 ## Skiing ⛷️
 
-Winters are for the mountains — there's nothing like a fresh run of powder.
+Winters are for the mountains, and there's nothing like a fresh run of powder.
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 760px; margin-top: 0.6rem;">
   <iframe

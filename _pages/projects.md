@@ -37,12 +37,12 @@ nav_order: 3
   <div class="proj-card" data-video="{{ '/assets/videos/iros.mp4' | relative_url }}">
     <video src="{{ '/assets/videos/iros.mp4' | relative_url }}#t=0.1" muted preload="metadata" playsinline></video>
     <div class="play-badge"></div>
-    <div class="proj-caption">IROS 2026 — SMAT: Co-Adaptive Exoskeleton Control</div>
+    <div class="proj-caption">IROS 2026 · SMAT: Co-Adaptive Exoskeleton Control</div>
   </div>
   <div class="proj-card" data-video="{{ '/assets/videos/biorob.mp4' | relative_url }}">
     <video src="{{ '/assets/videos/biorob.mp4' | relative_url }}#t=0.1" muted preload="metadata" playsinline></video>
     <div class="play-badge"></div>
-    <div class="proj-caption">BioRob 2026 — Ankle Assistance for Gait Symmetry</div>
+    <div class="proj-caption">BioRob 2026 · Ankle Assistance for Gait Symmetry</div>
   </div>
   <div class="proj-card" data-video="{{ '/assets/videos/msk_model_in_simulation.mp4' | relative_url }}">
     <video src="{{ '/assets/videos/msk_model_in_simulation.mp4' | relative_url }}#t=0.1" muted preload="metadata" playsinline></video>
@@ -52,7 +52,7 @@ nav_order: 3
   <div class="proj-card" data-video="{{ '/assets/videos/KF_Exo_device_test_harness.mp4' | relative_url }}">
     <video src="{{ '/assets/videos/KF_Exo_device_test_harness.mp4' | relative_url }}#t=0.1" muted preload="metadata" playsinline></video>
     <div class="play-badge"></div>
-    <div class="proj-caption">Rehabilitation Exoskeleton — Device Test</div>
+    <div class="proj-caption">Rehabilitation Exoskeleton · Device Test</div>
   </div>
 </div>
 

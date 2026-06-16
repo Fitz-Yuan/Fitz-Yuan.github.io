@@ -14,5 +14,5 @@ description:
 <iframe
   src="{{ '/assets/img/Resume_Yifei_Yuan.pdf' | relative_url }}"
   style="width: 100%; height: 90vh; border: 1px solid rgba(0,0,0,0.1); border-radius: 6px;"
-  title="Curriculum Vitae — Yifei Yuan">
+  title="Curriculum Vitae of Yifei Yuan">
 </iframe>
