@@ -27,7 +27,8 @@
 .proj-lightbox { position: fixed; inset: 0; z-index: 1000; background: rgba(0,0,0,.85);
   display: none; align-items: center; justify-content: center; opacity: 0; transition: opacity .25s ease; }
 .proj-lightbox.open { display: flex; opacity: 1; }
-.proj-lightbox video { max-width: 90vw; max-height: 85vh; border-radius: 8px; background: #000;
+.proj-lightbox video { width: min(92vw, 1000px); aspect-ratio: 16 / 9; max-height: 86vh; object-fit: contain;
+  border-radius: 8px; background: #000;
   transform: scale(.85); transition: transform .25s ease; box-shadow: 0 12px 44px rgba(0,0,0,.55); }
 .proj-lightbox.open video { transform: scale(1); }
 .proj-lightbox .close-btn { position: absolute; top: 16px; right: 26px; color: #fff;
