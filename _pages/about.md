@@ -31,8 +31,8 @@ latest_posts:
 .post-title { font-weight: 700; }
 /* Capitalize the section headings (News, Selected Publications) */
 .post > article > h2 { text-transform: capitalize; }
-/* Nudge the profile photo right and add a gap between the text and the photo */
-.profile.float-right { margin-left: 1.5rem; transform: translateX(10px); }
+/* Align the photo's top with the subtitle line; small gap on its left */
+.profile.float-right { margin-top: -2.6rem; margin-left: 1.5rem; transform: translateX(8px); }
 </style>
 
 Hi, I'm **Yifei Yuan (袁一飞)**, a Ph.D. student in the **Joint Biomedical Engineering PhD Program** at NJIT & Rutgers. My research sits at the intersection of **reinforcement learning, robotics, and biomechanics**, with a focus on **rehabilitation exoskeletons**.
