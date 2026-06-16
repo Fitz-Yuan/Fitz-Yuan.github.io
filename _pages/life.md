@@ -41,3 +41,13 @@ Meet **Fanfan**, my favorite little furry friend and the best company on every a
 ## Skiing ⛷️
 
 Winters are for the mountains — there's nothing like a fresh run of powder.
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 760px; margin-top: 0.6rem;">
+  <iframe
+    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0; border-radius: 8px;"
+    src="https://www.youtube.com/embed/1cUbjn8ioIc"
+    title="Skiing"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen>
+  </iframe>
+</div>
