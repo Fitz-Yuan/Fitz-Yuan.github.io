@@ -10,8 +10,7 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info: >
     <p style="white-space: nowrap;">Biomedical Engineering</p>
-    <p style="white-space: nowrap;">NJIT, Newark, NJ</p>
-    <p style="white-space: nowrap;">yy72@njit.edu</p>
+    <p style="white-space: nowrap;">NJIT &amp; Rutgers, Newark, NJ</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
