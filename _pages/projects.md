@@ -13,7 +13,7 @@ nav_order: 3
 .proj-card { position: relative; cursor: pointer; border-radius: 10px; overflow: hidden; background: #000;
   box-shadow: 0 2px 10px rgba(0,0,0,.18); transition: transform .2s ease, box-shadow .2s ease; }
 .proj-card:hover { transform: translateY(-3px); box-shadow: 0 8px 22px rgba(0,0,0,.30); }
-.proj-card video { width: 100%; display: block; }
+.proj-card video { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; display: block; }
 .proj-card .proj-caption { position: absolute; left: 0; right: 0; bottom: 0; padding: .55rem .75rem;
   color: #fff; font-size: .9rem; background: linear-gradient(transparent, rgba(0,0,0,.78)); }
 .proj-card .play-badge { position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%);
@@ -26,7 +26,7 @@ nav_order: 3
 .proj-lightbox { position: fixed; inset: 0; z-index: 1000; background: rgba(0,0,0,.85);
   display: none; align-items: center; justify-content: center; opacity: 0; transition: opacity .25s ease; }
 .proj-lightbox.open { display: flex; opacity: 1; }
-.proj-lightbox video { width: min(90vw, 1100px); max-height: 85vh; border-radius: 8px; background: #000;
+.proj-lightbox video { max-width: 90vw; max-height: 85vh; border-radius: 8px; background: #000;
   transform: scale(.85); transition: transform .25s ease; box-shadow: 0 12px 44px rgba(0,0,0,.55); }
 .proj-lightbox.open video { transform: scale(1); }
 .proj-lightbox .close-btn { position: absolute; top: 16px; right: 26px; color: #fff;
@@ -43,6 +43,16 @@ nav_order: 3
     <video src="{{ '/assets/videos/biorob.mp4' | relative_url }}#t=0.1" muted preload="metadata" playsinline></video>
     <div class="play-badge"></div>
     <div class="proj-caption">BioRob 2026 — Ankle Assistance for Gait Symmetry</div>
+  </div>
+  <div class="proj-card" data-video="{{ '/assets/videos/msk_model_in_simulation.mp4' | relative_url }}">
+    <video src="{{ '/assets/videos/msk_model_in_simulation.mp4' | relative_url }}#t=0.1" muted preload="metadata" playsinline></video>
+    <div class="play-badge"></div>
+    <div class="proj-caption">Massively Parallel Musculoskeletal Simulation (MuJoCo Warp)</div>
+  </div>
+  <div class="proj-card" data-video="{{ '/assets/videos/KF_Exo_device_test_harness.mp4' | relative_url }}">
+    <video src="{{ '/assets/videos/KF_Exo_device_test_harness.mp4' | relative_url }}#t=0.1" muted preload="metadata" playsinline></video>
+    <div class="play-badge"></div>
+    <div class="proj-caption">Rehabilitation Exoskeleton — Device Test</div>
   </div>
 </div>
 
