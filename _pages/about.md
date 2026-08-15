@@ -42,6 +42,16 @@ latest_posts:
 #fistbump-btn:hover:not(:disabled) { transform: scale(1.05); }
 #fistbump-btn:disabled { opacity: 0.55; cursor: default; }
 #fistbump-count { color: var(--global-text-color-light, #777); font-size: 0.95rem; }
+/* Publication links (arXiv/PDF/...) trail the title inline instead of taking their own line */
+.publications ol.bibliography li .title { display: inline; }
+.publications ol.bibliography li .links { display: inline; margin-left: 0.35rem; }
+.publications ol.bibliography li .links a.btn {
+  padding: 0.05rem 0.5rem;
+  font-size: 0.72rem;
+  line-height: 1.5;
+  vertical-align: 0.08em;
+  margin-right: 0.15rem;
+}
 </style>
 
 Hi, I'm **Yifei Yuan (袁一飞)**, a Ph.D. student in the **Joint Biomedical Engineering PhD Program** at NJIT & Rutgers. My research sits at the intersection of **reinforcement learning, robotics, biomechanics, and human movement in simulation**, with a focus on **rehabilitation exoskeletons**.

@@ -9,6 +9,19 @@ nav_order: 2
 
 <!-- _pages/publications.md -->
 
+<style>
+/* Publication links (arXiv/PDF/...) trail the title inline instead of taking their own line */
+.publications ol.bibliography li .title { display: inline; }
+.publications ol.bibliography li .links { display: inline; margin-left: 0.35rem; }
+.publications ol.bibliography li .links a.btn {
+  padding: 0.05rem 0.5rem;
+  font-size: 0.72rem;
+  line-height: 1.5;
+  vertical-align: 0.08em;
+  margin-right: 0.15rem;
+}
+</style>
+
 <!-- Bibsearch Feature -->
 
 {% include bib_search.liquid %}
