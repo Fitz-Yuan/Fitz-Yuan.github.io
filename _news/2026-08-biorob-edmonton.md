@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Heading to Edmonton, Canada 🇨🇦 to attend **IEEE BioRob 2026**.
+Presented at **IEEE BioRob 2026** in Edmonton, Canada.
