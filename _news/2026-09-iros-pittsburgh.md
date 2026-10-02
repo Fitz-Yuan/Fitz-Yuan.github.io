@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Heading to Pittsburgh, PA to present at **IEEE/RSJ IROS 2026** (September 27 – October 1).
+Presented at **IEEE/RSJ IROS 2026** in Pittsburgh, PA.
