@@ -35,6 +35,11 @@ nav_order: 3
 </style>
 
 <div class="proj-grid">
+  <div class="proj-card" data-video="{{ '/assets/videos/uniexo.mp4' | relative_url }}">
+    <video src="{{ '/assets/videos/uniexo.mp4' | relative_url }}#t=2" muted preload="metadata" playsinline></video>
+    <div class="play-badge"></div>
+    <div class="proj-caption">UniExo: Multi-Skill Locomotion &amp; Co-Adaptive Exoskeleton Control</div>
+  </div>
   <div class="proj-card" data-video="{{ '/assets/videos/iros.mp4' | relative_url }}">
     <video src="{{ '/assets/videos/iros.mp4' | relative_url }}#t=2" muted preload="metadata" playsinline></video>
     <div class="play-badge"></div>
