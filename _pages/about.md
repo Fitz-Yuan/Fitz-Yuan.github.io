@@ -41,7 +41,6 @@ latest_posts:
   padding: 0.5rem 1.15rem; font-size: 1rem; cursor: pointer; transition: transform .12s ease, opacity .15s ease; }
 #fistbump-btn:hover:not(:disabled) { transform: scale(1.05); }
 #fistbump-btn:disabled { opacity: 0.55; cursor: default; }
-#fistbump-count { color: var(--global-text-color-light, #777); font-size: 0.95rem; }
 /* Publication links (arXiv/PDF/...) trail the title inline instead of taking their own line */
 .publications ol.bibliography li .title { display: inline; }
 .publications ol.bibliography li .links { display: inline; margin-left: 0.35rem; }
@@ -64,33 +63,22 @@ I'm currently **open to internship and research collaboration opportunities**. I
 
 <div id="fistbump-wrap">
   <button id="fistbump-btn" type="button">🤜🤛 Fist bump</button>
-  <span id="fistbump-count">…</span>
 </div>
 
 <script>
   (function () {
     var BASE = 'https://api.counterapi.dev/v1/fitzyuanhomepage/bumps';
     var btn = document.getElementById('fistbump-btn');
-    var cnt = document.getElementById('fistbump-count');
-    if (!btn || !cnt) return;
-    function render(n) {
-      cnt.textContent = n + (n === 1 ? ' person has fist-bumped me' : ' people have fist-bumped me');
-    }
+    if (!btn) return;
     function bumpedAlready() { try { return localStorage.getItem('fistbumped') === '1'; } catch (e) { return false; } }
     function markBumped() { try { localStorage.setItem('fistbumped', '1'); } catch (e) {} }
     function disable() { btn.disabled = true; btn.textContent = '🤜🤛 Bumped!'; }
-    // Initial count (read-only)
-    fetch(BASE + '/').then(function (r) { return r.json(); })
-      .then(function (d) { render(d.count || 0); })
-      .catch(function () { render(0); });
     if (bumpedAlready()) disable();
     btn.addEventListener('click', function () {
       if (bumpedAlready()) return;
       markBumped();
       disable();
-      fetch(BASE + '/up').then(function (r) { return r.json(); })
-        .then(function (d) { render(d.count); })
-        .catch(function () {});
+      fetch(BASE + '/up').catch(function () {});
     });
   })();
 </script>
