@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper **Sim-to-Real Deployment of a Deep Reinforcement Learning Controller for a Lower-Limb Rehabilitation Exoskeleton** received the **Best Oral Presentation Award** at **ICNR 2026** in Seoul, South Korea! 🏆
+Our paper won the **Best Oral Presentation Award** at **ICNR 2026** in Seoul, South Korea! 🏆
