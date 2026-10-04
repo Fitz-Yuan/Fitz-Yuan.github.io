@@ -8,11 +8,11 @@ description:
 ---
 
 <div style="text-align: right; margin-bottom: 0.75rem;">
-  <a href="{{ '/assets/img/Resume_Yifei_Yuan.pdf' | relative_url }}" target="_blank" rel="noopener">Open / download PDF</a>
+  <a href="{{ '/assets/pdf/Yifei_Yuan_Resume.pdf' | relative_url }}" target="_blank" rel="noopener">Open / download PDF</a>
 </div>
 
 <iframe
-  src="{{ '/assets/img/Resume_Yifei_Yuan.pdf' | relative_url }}"
+  src="{{ '/assets/pdf/Yifei_Yuan_Resume.pdf' | relative_url }}"
   style="width: 100%; height: 90vh; border: 1px solid rgba(0,0,0,0.1); border-radius: 6px;"
   title="Curriculum Vitae of Yifei Yuan">
 </iframe>
